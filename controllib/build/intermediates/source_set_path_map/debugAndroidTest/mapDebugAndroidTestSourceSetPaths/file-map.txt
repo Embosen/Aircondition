@@ -1,0 +1,5 @@
+kiyun.controllib.test.controllib-androidTest-0 F:\Edutation\Aircondition\controllib\build\generated\res\resValues\androidTest\debug
+kiyun.controllib.test.controllib-mergeDebugAndroidTestResources-1 F:\Edutation\Aircondition\controllib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+kiyun.controllib.test.controllib-mergeDebugAndroidTestResources-2 F:\Edutation\Aircondition\controllib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+kiyun.controllib.test.controllib-debugAndroidTest-3 F:\Edutation\Aircondition\controllib\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+kiyun.controllib.test.controllib-debug-4 F:\Edutation\Aircondition\controllib\build\intermediates\packaged_res\debug\packageDebugResources

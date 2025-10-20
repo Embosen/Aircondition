@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "kiyun.controllib.test.controllib-mergeDebugAndroidTestResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "F:\\Edutation\\Aircondition\\controllib\\build\\intermediates\\packaged_res\\debug\\packageDebugResources\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,103",
+                        "endLines": "2,12",
+                        "endColumns": "47,24",
+                        "endOffsets": "98,561"
+                    }
+                }
+            ]
+        }
+    ]
+}

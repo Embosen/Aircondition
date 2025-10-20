@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="control">
+        <attr name="txtColor" format="color"/>
+        <attr name="txtText" format="string"/>
+        <attr name="txtSize" format="dimension"/>
+        <attr name="fData" format="float"/>
+        <attr name="DecimalWidth" format="integer" />
+        <attr name="beTrueOrOff" format="boolean"/>
+        <attr name="TrueImageType" format="integer"/>
+        <attr name="inStruction" format="integer"/>
+    </declare-styleable>
+
+
+
+</resources>

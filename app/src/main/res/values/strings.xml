@@ -1,0 +1,8 @@
+<resources>
+    <string name="kiyun">凯云科技</string>
+    <string name="app_name">空调控制器</string>
+    <string name="hex">十六进制</string>
+    <string name="bin">二进制</string>
+    <string name="decimal">十进制</string>
+
+</resources>
