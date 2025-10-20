@@ -124,25 +124,21 @@ public class RawDataActivity extends Activity implements DataUi, CompoundButton.
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         int id = buttonView.getId();
-        switch (id) {
-            case R.id.chk_bin:
-                if (isChecked) {
-                    chk_hex.setChecked(false);
-                    chk_decimal.setChecked(false);
-                }
-                break;
-            case R.id.chk_hex:
-                if (isChecked) {
-                    chk_bin.setChecked(false);
-                    chk_decimal.setChecked(false);
-                }
-                break;
-            case R.id.chk_decimal:
-                if (isChecked) {
-                    chk_hex.setChecked(false);
-                    chk_bin.setChecked(false);
-                }
-                break;
+        if (id == R.id.chk_bin) {
+            if (isChecked) {
+                chk_hex.setChecked(false);
+                chk_decimal.setChecked(false);
+            }
+        } else if (id == R.id.chk_hex) {
+            if (isChecked) {
+                chk_bin.setChecked(false);
+                chk_decimal.setChecked(false);
+            }
+        } else if (id == R.id.chk_decimal) {
+            if (isChecked) {
+                chk_hex.setChecked(false);
+                chk_bin.setChecked(false);
+            }
         }
         if (!chk_decimal.isChecked() && !chk_hex.isChecked() && !chk_bin.isChecked()) {
             chk_hex.setChecked(true);

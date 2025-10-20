@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 包含需要备份的文件 -->
+    <include domain="sharedpref" path="." />
+    <include domain="database" path="." />
+    <include domain="file" path="." />
+    
+    <!-- 排除不需要备份的文件 -->
+    <exclude domain="sharedpref" path="device_prefs.xml" />
+</full-backup-content>

@@ -1,9 +1,30 @@
+# Android Studio
 *.iml
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
+/.idea/
 .DS_Store
+
+# Build directories
 /build
+/app/build
+/controllib/build
 /captures
 .externalNativeBuild
+
+# Generated files
+*.apk
+*.aab
+*.dex
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+Thumbs.db
+.DS_Store

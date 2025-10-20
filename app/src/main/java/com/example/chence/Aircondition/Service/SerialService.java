@@ -8,7 +8,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 
 import com.example.chence.Aircondition.DataUI.DataUi;
@@ -58,7 +58,7 @@ public class SerialService extends Service {
     private void initLocalPort() {
         try {
             File sdCardDir= Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM);
-            String SerialPortDevStr="/dev/ttySAC3/";
+            String SerialPortDevStr="/dev/ttyS3";
             try {
                 File fileReader = new File(sdCardDir, "SerialPortDev.txt");
                 if (fileReader.exists()) {
